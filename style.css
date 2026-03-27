@@ -98,6 +98,47 @@ header button:hover {
   margin-top: 20px;
   padding: 15px 35px;
   border-radius: 30px;
+}
+
+.created-by {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aaa;
+  font-style: italic;
+}
+
+.video-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.video-container iframe {
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.yt-btn {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.yt-btn button {
+  padding: 10px 25px;
+  border: none;
+  background: #ff0000;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.yt-btn button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff0000;
+}
   border: none;
   background: linear-gradient(45deg, #ffcc00, #ff9900);
   color: black;
